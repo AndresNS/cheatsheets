@@ -14,3 +14,8 @@ Invoke a single function:
 ```
 sls invoke local -f [function_name] --stage local
 ```
+
+Deploy en AWS
+```
+sls deploy --stage local|dev|prod
+```
