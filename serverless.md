@@ -12,6 +12,11 @@ Install dependencies:
 npm install serverless-offline serverless-dynamodb-local serverless-dotenv-plugin serverless-pseudo-parameters
 ```
 
+Install DynamoDB local:
+```
+sls dynamodb install
+```
+
 Start serverless offline:
 ```
 sls offline start
