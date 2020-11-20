@@ -1,5 +1,17 @@
 [Documentation](https://www.serverless.com/framework/docs/providers/aws/cli-reference/)
 
+Create serverless project:
+```
+npm init
+npm install serverless
+serverless create --template aws-nodejs
+```
+
+Install dependencies:
+```
+npm install serverless-offline serverless-dynamodb-local
+```
+
 Start serverless offline:
 ```
 sls offline start
