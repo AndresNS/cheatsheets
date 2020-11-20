@@ -9,7 +9,7 @@ serverless create --template aws-nodejs
 
 Install dependencies:
 ```
-npm install serverless-offline serverless-dynamodb-local
+npm install serverless-offline serverless-dynamodb-local serverless-dotenv-plugin
 ```
 
 Start serverless offline:
