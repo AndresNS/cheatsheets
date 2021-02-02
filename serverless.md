@@ -41,7 +41,7 @@ Invoke a single function:
 sls invoke local -f [function_name] --stage local --path ./invokes/listener.json
 ```
 
-Deploy on AWS
+Deploy to AWS
 ```
 sls deploy --stage local|dev|prod
 ```
